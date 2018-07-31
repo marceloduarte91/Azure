@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus"
+        },
+        "virtualMachineName": {
+            "value": "Server2"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_F1"
+        },
+        "adminUsername": {
+            "value": "marcelo"
+        },
+        "virtualNetworkName": {
+            "value": "vnetWUS"
+        },
+        "networkInterfaceName": {
+            "value": "server227"
+        },
+        "networkSecurityGroupName": {
+            "value": "Server2-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "marcelowusdiag220"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/marcelowusdiag220"
+        },
+        "subnetName": {
+            "value": "Back-End"
+        },
+        "publicIpAddressName": {
+            "value": "Server2-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "02:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "Bahia Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Disabled"
+        }
+    }
+}
